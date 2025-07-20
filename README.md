@@ -25,21 +25,20 @@ This Chrome extension automatically:
 
 ## Installation
 
-### Method 1: Load as Unpacked Extension (Recommended for Development)
+### Method 1: Create Extension Package (Recommended for end-use)
+
+1. Download the [extension zip file](https://github.com/cTxplorer/bse-link-fixer/releases) (scroll to "Assets" section)
+3. In Chrome, go to `chrome://extensions/`
+4. Enable "Developer mode"
+5. Drag and drop the zip file onto the extensions page
+
+### Method 2: Load as Unpacked Extension (Recommended for development)
 
 1. Download or clone this repository to your local machine
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked" and select the folder containing the extension files
 5. The extension should now appear in your extensions list
-
-### Method 2: Create Extension Package
-
-1. Zip all the files in this directory
-2. Rename the zip file to `bse-link-fixer.zip`
-3. In Chrome, go to `chrome://extensions/`
-4. Enable "Developer mode"
-5. Drag and drop the zip file onto the extensions page
 
 ## Usage
 
