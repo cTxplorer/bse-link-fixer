@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "BSE Announcement Link Fixer",
+  "version": "0.1.0",
+  "description": "Automatically fixes BSE corporate announcement links by switching between /AttachHis and /AttachLive when links return 404",
+  "permissions": [],
+  "host_permissions": [
+    "https://www.bseindia.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.bseindia.com/xml-data/corpfiling/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+        }
+  ]
+}
